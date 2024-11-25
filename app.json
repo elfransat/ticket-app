@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Eventual Tickets",
+    "slug": "eventual-tickets",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/eventual-icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0909"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "eventu.al",
+      "buildNumber": "2.0.0"
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/eventual-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "eventu.al",
+      "versionCode": 420020000
+    },
+    "web": {
+      "favicon": "./assets/eventual-icon.png"
+    },
+    "packagerOpts": {
+      "sourceExts": [
+        "svg"
+      ]
+    }
+  }
+}

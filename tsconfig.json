@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./", // This must be specified if "paths" is.
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@assets/*": ["assets/*"],
+      "@screens/*": ["src/screens/*"],
+      "@services/*": ["src/services/*"],
+      "@config/*": ["src/config/*"],
+      "@redux/*": ["src/redux/*"]
+    },
+    "jsx": "react-native",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "extends": "expo/tsconfig.base"
+}
